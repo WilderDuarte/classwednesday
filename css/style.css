@@ -10,3 +10,18 @@ img{
 tr:hover{
     background-color: brown;
 }
+
+input{
+    border-radius: 3px;
+    border: 3px solid greenyellow;
+    background-color: red;
+}
+
+.inputcolor{
+    background-color: blue;
+}
+
+#contraseña{
+    background-color: rgb(223, 38, 189); /*color de fondo de la caja*/
+    color: rgb(136, 191, 33); /*color de la letra*/
+}
