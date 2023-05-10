@@ -46,6 +46,7 @@ nav {
 .enlaces-header {
     font-weight: 300;
     margin: auto;
+    transition: all ease-in-out .6s;
 }
 
 .nav .enlaces-header a {
@@ -330,6 +331,7 @@ footer{
 /* ############# BREAKPOINTS ############# */
 
 @media screen and (max-width:700px) {
+    /* Barra de menu hamburguesa */
     .enlaces-header{
         position: fixed;
         background-color: #d03d3d;
@@ -364,5 +366,46 @@ footer{
 
     .hamburguer{
         display: block;
+    }
+
+    /* La visual principal */
+    h1{
+        font-size: 25px;
+    }
+
+    .contenido-header{
+        width: 100%;
+        height: 480px;
+        display: block;
+    }
+
+    .contenido-header > img {
+        width: 120px;
+        height: 120px;
+        animation: ease-in animacion 0.5s;
+        margin-top: 20px;
+    }
+
+    .contenido-header > img, .textos-header {
+        margin-left: 0px;
+    }
+
+    /* Sectión Education */
+    .education, .certificado, .partFooter{
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    .certificado img {
+        height: 130px;
+    }
+
+    /* footer */
+    .partFooter img {
+        display: none;
+    }
+
+    footer{
+        padding: 0px;
     }
 }
